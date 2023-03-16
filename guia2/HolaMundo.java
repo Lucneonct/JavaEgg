@@ -1,4 +1,4 @@
-package mi_paquete_de_prueba;
+package guia2;
 
 public class HolaMundo {
 	public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class HolaMundo {
 
 		// Añadir 10 a la variable
 		numero += 10;
-		System.out.println(numero);
+		System.out.println(decimales);
 
 		// Comparación
 		bandera = numero == 59;

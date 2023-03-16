@@ -1,4 +1,4 @@
-package mi_paquete_de_prueba;
+package guia2;
 
 import java.util.Scanner;
 
