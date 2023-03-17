@@ -34,5 +34,7 @@ public class Ejercicio7 {
       default:
         System.out.println("No existe un valor válido para tipo de bomba");
     }
+
+    input.close();
   }
 }
