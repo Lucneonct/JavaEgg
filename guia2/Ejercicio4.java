@@ -1,17 +1,22 @@
 package guia2;
-import java.util.Scanner;
+
+/**
+ * Define una variable que aloje tu nombre y otra que guarde tu edad. Imprime ambas variables por pantalla.
+ * 
+ * Recomendamos que hagan el siguiente experimento: tipear en minúsculas la palabra sout
+ * y apenas terminamos de escribirla tocar el botón tab o mejor dicho tabular.
+ * 
+ * Esto nos va a generar un System.out.println() para poder escribir lo que queramos.
+ */
 
 public class Ejercicio4 {
   public static void main(String[] args) {
-    int grados;
-    double resultado;
+    String nombre = "John Doe";
+    int edad = 22;
 
-    Scanner input = new Scanner(System.in);
-    grados = input.nextInt();
-
-    resultado = 32 + (9 * grados / 5);
-
-    System.out.println(grados + "° equivale a " + resultado + "°F");
-    input.close();
+    /**
+     * Mostrar en consola los resultados
+     */
+    System.out.println(nombre + " tiene " + edad + " años.");
   }
 }
