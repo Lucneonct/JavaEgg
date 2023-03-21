@@ -1,4 +1,4 @@
-package guia2.ejercicios; // Define el nombre del paquete donde se encuentra la clase
+package guia_2.ejercicios; // Define el nombre del paquete donde se encuentra la clase
 
 import java.util.Scanner; // Importa la clase Scanner para leer datos desde el teclado
 

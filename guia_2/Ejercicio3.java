@@ -1,4 +1,4 @@
-package guia2;
+package guia_2;
 
 /**
  * Define variables donde puedas alojar los resultados y

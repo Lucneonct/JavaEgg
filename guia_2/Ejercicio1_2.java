@@ -1,4 +1,4 @@
-package guia2;
+package guia_2;
 
 /**
  * Crear un proyecto de Java y definir al menos 6 variables
