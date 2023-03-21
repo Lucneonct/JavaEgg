@@ -1,17 +1,16 @@
 package guia_4;
 
 public class Prueba {
-  public static boolean esPar(int dato) {
-    return dato % 2 == 0;
+  public static int sumar(int num1, int num2) {
+    int suma = num1 + num2;
+
+    return suma;
   }
 
   public static void main(String[] args) {
-    int num = 6;
-    
-    if(esPar(num)) {
-      System.out.println("El número es par");
-    } else {
-      System.out.println("El número es impar");
-    }
+    int suma1 = sumar(15, 20); // => 35
+    int suma2 = sumar(10, suma1); // => 45
+
+    System.out.println(suma2);
   } 
 }
